@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main -entry point
- *
- * Return: Always 0 (success)
- */
+*main -print the string in the put function
+*
+* Description: Using the main function
+* this program prints "programming is like building a multilingual puzzle
+* Return: 0
+*/
 int main (void)
 {
-	print ("with proper grammer, but the outcome is a price of art,\n")
-		return (0):  }
+    printf("with proper grammer, but the outcome is a place of art,\n");
