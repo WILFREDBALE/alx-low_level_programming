@@ -23,10 +23,11 @@ else if (n <  0)
 {
 printf("%i is negative\n", n);
 }
+
 else
 {
 printf("%i is positive\n",n); 
 }
 
-rturn (0);
+return (0);
 }
