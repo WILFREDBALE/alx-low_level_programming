@@ -8,7 +8,7 @@
  * Return: Always 0 (seccess/correct)
  */
 int main(void)
-{
+
 int n;
 
 srand(time(0));
@@ -30,4 +30,4 @@ printf("%i is positive\n",n);
 }
 
 return (0);
-}
+/\s\+$//e
