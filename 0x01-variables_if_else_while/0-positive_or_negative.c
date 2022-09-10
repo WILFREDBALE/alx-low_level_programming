@@ -30,4 +30,4 @@ printf("%i is positive\n",n);
 }
 
 return (0);
-/\s\+$//e
+}
