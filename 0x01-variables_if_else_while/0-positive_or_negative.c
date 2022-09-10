@@ -6,7 +6,8 @@
  * main - Entry point
  *
  * Return: Always 0 (seccess/correct)
- */
+*/
+
 int main(void)
 
 int n;
