@@ -9,11 +9,13 @@ int main(void)
 {
 char alphabet;
 
-for (alphabet = 'a'; alphabet++)
+for (alphabet = 'a'; alphabet++); 
 {
 putchar(alphabet);
 }
 
-putcher('\n');
+putchar('\n');
 
 return (0);
+
+}
