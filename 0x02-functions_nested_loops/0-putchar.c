@@ -1,5 +1,5 @@
 #include <stdio.h>
-* Description-: using main to print "_putchar"
+* using main to print "_putchar"
 int main(void)
 {
 /* this program prints "_putchar" to stdout */
