@@ -1,7 +1,17 @@
 #include <stdio.h>
-int main()
+#include <main.h>
+
+int main(void)
 {
-char Word = "_putchar";
-putchar("Word\n");
-return(0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r);
+
+return (0);
 }
+
