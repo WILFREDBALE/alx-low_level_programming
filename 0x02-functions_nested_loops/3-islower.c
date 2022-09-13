@@ -3,7 +3,7 @@
  * _islower - this function checks for lowercase characters
  * Return: 0
  */
-int _islower(int c)
+int _islower
 {
 
 if (c >= 'a' && c <= 'z')
