@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-char putchar;
-putchar("_putchar\n");
+char Word = "_putchar";
+putchar("Word\n");
 return(0);
 }
