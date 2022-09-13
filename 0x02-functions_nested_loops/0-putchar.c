@@ -2,7 +2,7 @@
 
 int main(void)
 {
-//this program prints "putchar to stdout
+/* this program prints "putchar" to stdout */
 putchar('_');
 putchar('p');
 putchar('u');
