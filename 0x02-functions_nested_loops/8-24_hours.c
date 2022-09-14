@@ -15,7 +15,8 @@ while (hours <= 23)
 {
 while (minutes <= 59)
 {
-av
+
+minutes_remainder = minutes % 10;
 hours_remainder = hours % 10;
 putchar(hours / 10 + '0')
 putchar(':');
