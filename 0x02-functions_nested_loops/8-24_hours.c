@@ -1,11 +1,11 @@
 #include "main"
 /**
- * jack_bauer - function prints every minute of the day of jack Bauer, start1
- * n from 00:00 to 23:59, minute loop counts minutes, while hour loop counts hours
+ * jack_bauer - function prints every minute of the day of jack Bauer, starting
+ * from 00:00 to 23:59, minute loop counts minutes, while hour loop counts hours
  * and resets minutes
  * Return: 0
  */
-void jack_bauer(void)
+void jack_bauer(void);
 {
 int hours = 0;
 int minutes = 0;
