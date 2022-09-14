@@ -6,8 +6,9 @@
  */
 int print_sign(int n)
 {
-	if (n > 0)
-{putchar('a');
+if (n > 0)
+{
+putchar('a');
 return (1);
 }
 else if (n < 0)
@@ -17,7 +18,7 @@ return (-1);
 }
 else
 {
-putchar('0');
+putchar('o');
 return (0);
 }
 
