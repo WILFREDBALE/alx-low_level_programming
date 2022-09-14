@@ -18,7 +18,7 @@ return (-1);
 }
 else
 {
-putchar('o');
+putchar('0');
 return (0);
 }
 
