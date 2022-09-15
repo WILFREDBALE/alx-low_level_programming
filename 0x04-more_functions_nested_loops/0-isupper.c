@@ -8,7 +8,7 @@
  * Return: 1 if character is uppercase, 0 if otherwise
  */
 
-ist _issupper(int c)
+int _isupper(int c)
 {
 if(c is >= 'A' && c <= 'Z')
 {
