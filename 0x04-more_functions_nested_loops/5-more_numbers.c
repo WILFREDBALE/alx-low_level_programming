@@ -9,12 +9,12 @@
 void more_numbers(void)
 {
 int a, b;
-for (b =0; b < 10; b++)
+for (b = 0; b < 10; b++)
 {
 a = 0;
 while (a <= 14)
 {
-if (n2 >= 10)
+if (a >= 10)
 {
 putchar(a / 10 + '0');
 }
