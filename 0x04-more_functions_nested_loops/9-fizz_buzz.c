@@ -4,12 +4,9 @@
 /**
  * main - program that prints either number 
  * or fizz or buzz or fizzBuzz
- *
- *
  * Return: 0
  */
- 
- int main(void)
+int main(void)
 {
 int num = 1;
 while (num++ < 100)
