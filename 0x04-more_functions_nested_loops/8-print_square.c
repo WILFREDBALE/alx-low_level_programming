@@ -3,7 +3,7 @@
 /**
  * print_square - prints squares
  * @size: parameter
- * Return: nothing
+ * Return: 0
  */
 
 void print_square(int size)
