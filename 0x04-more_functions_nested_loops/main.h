@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /**
- * main: This header contents prototypes for all functions used for this projects
+ * main - this is the header for prototypes
  * void prototypes (void)
  * int prototypes (int)
  */
@@ -19,6 +19,4 @@ int _putchar(char);
 int _isupper(int);
 int _isdigit(int);
 
- *
- *
 #endif /* MAIN_H */
