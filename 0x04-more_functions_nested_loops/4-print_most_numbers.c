@@ -16,5 +16,5 @@ if ((n != 2 && n != 4))
 putchar(n + '0');
 }
 }
-putchar('\n')
+putchar('\n');
 }
