@@ -5,7 +5,6 @@
  * @size: parameter
  * Return: return nothing
  */
-
 void print_square(int size)
 {
 int inc1, inc2;
