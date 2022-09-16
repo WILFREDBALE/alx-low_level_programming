@@ -1,29 +1,24 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_square - prints squares
- * @size: parameter
+ * @n: number of lines using '#' character
  * Return: return nothing
  */
-void print_square(int size)
+void print_square(int n)
 {
-int inc1, inc2;
-if (size > 0)
+int a, b;
+for (b = 0; b < n; b++)
 {
-for (inc1 = 0; inc1 < size; inc1++)
+for (a = 0; a < n; a++)
 {
-for (inc2 = 0; inc2 < (size - 1); inc2++)
-{
-putchar('0');
-}
 putchar('#');
+}
 putchar('\n');
 }
-}
-else
+if (n <= 0)
 {
 putchar('\n');
-
 }
 }
-
