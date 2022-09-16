@@ -13,7 +13,7 @@ if (size > 0)
 {
 for (inc1 = 0; inc1 < size; inc1++)
 {
-for (inc2 = 0; inc2 < (size -1); inc2++)
+for (inc2 = 0; inc2 < (size - 1); inc2++)
 {
 putcharr('0');
 }
@@ -21,7 +21,7 @@ putchar('#');
 putchar('\n');
 }
 }
-els
+else
 {
 putchar('\n');
 }
