@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - program that prints either number 
- * or fizz or buzz or fizzBuzz
- * Return: 0
+ * main - Fizz for multiples of 3, Buzz for multiples of 5 and FizzBuzz for both
+ * Return: always  0
  */
 int main(void)
 {
