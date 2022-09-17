@@ -3,10 +3,11 @@
 
 /**
  * print_triangle - prints a triangle
- * @size: size parameter of triangle
- * Return: returns nothing
+ * @size: height of triangle
+ * Return: void
  */
 void print_triangle(int size)
+
 {
 int a, b, c;
 for (a = 0; a < size; a++)
