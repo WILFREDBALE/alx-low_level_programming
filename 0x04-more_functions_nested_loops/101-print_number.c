@@ -27,5 +27,5 @@ else
 	{
 	print_number(num / 10);
 	}
-	putchar((num % 10) + '10');
+	putchar((num % 10) + '0');
 }
