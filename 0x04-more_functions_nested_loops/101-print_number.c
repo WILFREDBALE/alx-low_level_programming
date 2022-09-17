@@ -21,7 +21,7 @@ void print_number(int n)
 	}
 	if (num / 10)
 	{
-	putchar(num / 10);
+	print_number(num / 10);
 	}
 	putchar((num % 10) + '10');
 }
