@@ -7,29 +7,29 @@
  */
 int main(void)
 {
-int num = 1;
-while (num < 100)
+int a = 1;
+while (a < 101)
 {
-if (num % 3 == 0 && num % 5 == 0)
+if (a % 3 == 0 && a % 5 == 0)
 {
 printf("%s", "FizzBuzz");
 }
-else if (num % 3 == 0)
+else if (a % 3 == 0)
 {
 printf("%s", "Fizz");
 }
-else if (num % 5 == 0)
+else if (a % 5 == 0)
 {
 printf("%s", "Buzz");
 }
 else
-printf("%d", num);
+printf("%d", a);
 }
-if (num != 100)
+if (a != 100)
 {
 printf(" ");
 }
-num++;
+a++;
 }
 printf("\n");
 return (0);
