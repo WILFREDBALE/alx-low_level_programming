@@ -7,7 +7,6 @@
  * @b: second number
  * Return: void
  */
-
 void swap_int( int *a, int *b)
 {
 int tmp = *a;
