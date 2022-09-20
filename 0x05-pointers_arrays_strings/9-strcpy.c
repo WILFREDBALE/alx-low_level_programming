@@ -8,7 +8,7 @@
  * Return: Destination
  */
 
-char *_strcpy(char, *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 int inc = 0;
 while (*(src + inc) != '\0')
