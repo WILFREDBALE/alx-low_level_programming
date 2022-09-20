@@ -7,7 +7,7 @@
  * Return: int
  */
 
-nt _atoi(char *s)
+int _atoi(char *s)
 {
 int i;
 int res = 0;
