@@ -4,7 +4,7 @@
                                                                                                              
 /**                                                                                                          
  * *_strcat - this functions concatenates two strings                                                        
- * * @dest: string to which src is appended                                                                    
+ * @dest: string to which src is appended                                                                    
  * @src: string to be appended to dest                                                                       
  * Return: value of dest                                                                                     
  */                                                                                                         
