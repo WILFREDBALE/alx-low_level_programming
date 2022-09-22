@@ -6,9 +6,10 @@
  * _strcmp - compares two strings
  * @s1: first string
  * @s2: second string
- * Return: b
+ * Return: 0 if s1 == s2, negative number if s1 < s2,
+ * and positive number if s1 > s2.
  */
-
+ 
 int _strcmp(char *s1, char *s2)
 {
 int a = 0;
