@@ -6,7 +6,7 @@
  * _strcmp - compares two strings
  * @s1: first string
  * @s2: second string
- * Return: 0 if s1 == s2, negative number if s1 < s2,
+ * Return: returns 0 if s1 == s2, negative number if s1 < s2,
  * and positive number if s1 > s2.
  */
  
