@@ -20,6 +20,6 @@ for (a = 0; a < n; && src[a] != '\0'; a++)
 dest[a] = scr[a];
 for ( ; a < n; a++)
 dest[a] = '\0';
-retun (dest);
+return(dest);
 
 }
