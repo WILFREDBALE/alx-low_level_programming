@@ -15,11 +15,11 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-int a;
-for (a = 0; a < n && src[a] != '\0'; a++)
-dest[a] = scr[a];
-for (; a < n; a++)
-dest[a] = '\0';
+int i;
+for (i = 0; i < n && src[i] != '\0'; i++)
+dest[i] = scr[i];
+for ( ; i < n; a++)
+dest[i] = '\0';
 return (dest);
 
 }
