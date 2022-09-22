@@ -3,7 +3,9 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates two strings by adding n number of characters or bytes * @dest: string to be appended upon
+ * _strncat - concatenates two strings by
+ * adding n number of characters or bytes
+ ** @dest: string to be appended upon
  * @src: string to be appended to dest
  * @n: integer parameter
  * Return: dest
