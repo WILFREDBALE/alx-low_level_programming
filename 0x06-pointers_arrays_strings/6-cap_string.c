@@ -10,7 +10,7 @@
 
 char *cap_string(char *str)
 {
-char sep[] = ",\t;\n; .!?\"(0{]";
+char sep[] = ",\t;\n; .!?\"(){}";
 int flag, i, ii;
 for (i = o; str[i] != '\0'; i++)
 {
