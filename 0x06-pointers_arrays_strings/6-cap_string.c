@@ -25,6 +25,7 @@ for (i = 0; i < 12; i++)
 if (x == delimiter[i])
 return (1);
 return (0);
+
 }
 
 /**
@@ -40,7 +41,7 @@ while (*x)
 {
 if (isDelimiter(*x))
 foundDelimit = 1;
-else if (isLower(*x) && foundDelimit)
+else if (isLower(*x) && foundDelimit
 {
 *x -= 32;
 foundDelimit = 0;
@@ -48,6 +49,7 @@ foundDelimit = 0;
 else
 foundDelimit = 0;
 x++;
+}
 return (ptr);
 
 }
