@@ -1,30 +1,30 @@
 #include <stdio.h>
 #include <string.h>
 #include "main.h"
-#inclue "holberton.h"
-/**
- * leet - transforms to leet
- * @s: char array string type
- * Return: s transformed
- */
-char *leet(char *s)
-{
-int i, ii;
-char s1[] = "aeotl";
-char s1[] = "AEOTL";
-char s2[] = "43071";
 
-for (i = 0; s[i] != '\0'; i++)
+/**
+* leet - encodes a string into 1337
+* @x: String
+* Return: string that is encoded
+*/
+char *leet(char *x)
 {
-for (ii = 0; ii < 5; ii++)
+char *cp = x;
+char key[] = {'A', 'E', 'O', 'T', 'L'};
+int value[] = {4, 3, 0, 7, 1};
+unsigned int i;
+while (*x)
 {
-if(s[i] == s1[ii] || s[i] == s1[ii])
-{
-s[i] = s2[ii];
-break;
+for (i = 0; i < sizeof(key) / sizeof(char); i++)
+{	
+/*32 is the difference between lower case letters and apper case letters*/		
+if (*x == key[i] || *x == key[i] + 32)
+{	
+*x = 48 + value[i];								
 }
+} 
+x++;
 }
-}
-return (s);
+return (cp);
 
 }
