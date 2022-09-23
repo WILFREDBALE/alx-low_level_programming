@@ -16,13 +16,13 @@ unsigned int i;
 while (*x)
 {
 for (i = 0; i < sizeof(key) / sizeof(char); i++)
-{	
-/*32 is the difference between lower case letters and apper case letters*/		
+{
+/*32 is the difference between lower case letters and apper case letters*/
 if (*x == key[i] || *x == key[i] + 32)
-{	
-*x = 48 + value[i];								
+{
+*x = 48 + value[i];
 }
-} 
+}
 x++;
 }
 return (cp);
