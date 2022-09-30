@@ -25,7 +25,7 @@ for (i = 0; argv[count][i] != '\0'; i++)
 if (!(isdigit(argv[count][i])))
 {
 printf("Error\n");
-return (0);
+return (1);
 }
 }
 sum += atoi(argv[count]);
