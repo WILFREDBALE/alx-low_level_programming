@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Main Entry
+ * main - The main Entry
  * @argc: input
  * @argv: input
  * Return: Always 0 Success
