@@ -15,7 +15,7 @@ int count;
 int i;
 count = 1;
 sum = 0;
-if (argc =printf("0\n");
+if (argc = printf("0\n");
 return (0);
 }
 while (count < argc)
@@ -23,14 +23,14 @@ while (count < argc)
 for (i = 0; argv[count][i] != '\0'; i++)
 {
 if (!(isdigit(argv[count][i])))
-{								
+{
 printf("Error\n");
-return
+return (0);
 }
 }
 sum += atoi(argv[count]);
 count++;
-} 
+}
 printf("%d\n", sum);
 return (0);
 
