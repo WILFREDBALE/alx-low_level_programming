@@ -15,8 +15,11 @@ int i, j, **grid_array;
 if (width < 1 || height < 1)
 return (NULL);
 grid_array = malloc(height * sizeof(int *));
-if (grid_array == NUfree(grid_array);
+if (grid_array == NULL)
+{
+free(grid_array);
 return (NULL);
+}
 free(grid_array);
 for (i = 0; i < height; i++)
 {
