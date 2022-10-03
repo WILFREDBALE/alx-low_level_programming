@@ -21,7 +21,7 @@ while (i < size)
 {
 array[i] = c;
 i++;
-}           
+}
 return (array);
 
 }
