@@ -24,10 +24,10 @@ free(grid_array);
 for (i = 0; i < height; i++)
 {
 grid_array[i] = malloc(sizeof(int) * width);
-if (grid_array[i] == NULL)                                                                        
+if (grid_array[i] == NULL)
 {
 while (--i >= 0)
-free(grid_array[i]);	
+free(grid_array[i]);
 free(grid_array);
 return (NULL);
 }
