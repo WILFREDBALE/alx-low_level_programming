@@ -4,24 +4,20 @@
 /**
  * create_array - Main Entry
  * @size: input
- * @c: input
+ * @c: character
  * Return: 0
  */
 char *create_array(unsigned int size, char c)
 {
-char *arr;
+char *create_array(unsigned int size, char c)
+{
 unsigned int i;
-if (size == 0)
-{
+char *ptr;
+ptr = malloc(sizeof(char) * size);
+if (!size || !ptr)
 return (NULL);
-}
-arr = malloc(sizeof(char) * size);
-if (arr == NULL)
-{
-return (NULL);
-}
 for (i = 0; i < size; i++)
-{
-arr[i] = c;
+ptr[i] = c;
+return (ptr);
+
 }
-return (arr);
