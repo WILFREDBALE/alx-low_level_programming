@@ -15,7 +15,8 @@ unsigned int strlen;
 char *cpy_str;
 if (str == NULL)
 return (NULL);
-for (strlen = 0; str[strlen] != '\0'; strlen++);
+for (strlen = 0; str[strlen] != '\0'; strlen++)
+;
 cpy_str = malloc((strlen + 1) * sizeof(char));
 if (cpy_str == NULL)
 return (NULL);
