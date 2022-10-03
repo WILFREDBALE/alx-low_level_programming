@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * create_array - Main Entry
  * @size: input
