@@ -67,7 +67,8 @@ if (*printType[j].type == format[i])
 printf("%s", sep);
 printType[j].printer(list);
 sep = ", ";
-break;}
+break;
+}
 j++;
 }
 i++;
