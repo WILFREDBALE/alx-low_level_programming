@@ -13,3 +13,4 @@ while ((temp = head) != NULL)
 head = head->nex
 free(temp);
 }
+}
