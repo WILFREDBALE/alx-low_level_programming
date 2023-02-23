@@ -1,4 +1,4 @@
 school: main.c functions.c
-	gcc main.c functions.c -0 school
+	gcc main.c functions.c -o school
 
 all: school
