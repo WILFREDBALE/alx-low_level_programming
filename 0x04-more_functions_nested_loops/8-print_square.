@@ -1,7 +1,0 @@
-#include "main.h"
-
-/**
-* print_square - prints sqaure
-* @size: paremeter
-* Return: nothing
-*/
